@@ -51,7 +51,7 @@ jobs:
       # 6. Build and push frontend image
       - name: Build and push frontend image
         run: |
-          docker build -f step3.Dockerfile -t $FRONT_IMAGE
+          docker build -f step3.Dockerfile -t $FRONT_IMAGE .
           docker push $FRONT_IMAGE
 
       # 7. Build and push backend image
