@@ -5,7 +5,7 @@ WORKDIR /app
 COPY /frontend /app
 
 # on package l'application
-RUN npm installl && npm run build
+RUN npm install && npm run build
 
 
 FROM nginx:alpine
