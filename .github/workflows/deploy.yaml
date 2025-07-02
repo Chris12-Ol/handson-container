@@ -18,15 +18,15 @@ jobs:
 
     steps:
       # 1. Checkout code
-      - name: ???
-        uses: ???
+      - name: "Check out Git repository"
+        uses: actions/checkout@v4
 
       # 2. Configure AWS credentials via secrets
       - name: ???
         uses: ???
         with:
-          aws-access-key-id: ???
-          aws-secret-access-key: ???
+          aws-access-key-id: "AKIAZULPO6YV7FVYP7OC"
+          aws-secret-access-key: 
           aws-region: ???
 
       # 3. Log in to Amazon ECR
